@@ -1,0 +1,20 @@
+{
+  "name": "welcome-bot",
+  "version": "1.0.0",
+  "description": "MSZ Discord Welcome Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.97",
+    "discord.js": "^14.26.2",
+    "dotenv": "^16.0.0"
+  }
+}
