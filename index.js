@@ -29,7 +29,7 @@ const client = new Client({
 async function generateWelcomeImage(member) {
   const BG_PATH = path.join(__dirname, 'background.png');
 
-  const bg = await loadImage(BG_PATH);
+  const bg = await loadImage(require('fs').readFileSync(BG_PATH));
   const W  = bg.width;   // 857
   const H  = bg.height;  // 541
 
